@@ -1,0 +1,13 @@
+syntax = "proto3";
+package proto;
+
+
+message param {
+    string name = 1;
+    string time = 2;
+    string value = 3;
+}
+
+message interface_param {
+    repeated param Param = 1;
+}
